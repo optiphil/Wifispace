@@ -1,0 +1,121 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(4, 4, 73, 0.911);
+    display: flex;
+}
+
+.controls{
+    width: 300px;
+    height: 770px;
+    background-color: rgba(6, 6, 56, 0.815);
+    border-radius: 10px;
+    margin: 1%;
+}
+.topic{
+    display: flex;
+    justify-content: center;
+}
+h1{
+    font-size: 17px;
+    color: white;
+    padding-top: 5px;
+    font-family: 'Readex Pro', sans-serif;
+}
+span{
+    color: blue;
+}
+.logo{
+    height: 20px;
+    width: 25px;
+}
+ul{
+    padding-top: 30px;
+    padding-left: 50px;
+}
+ul li{
+    list-style: none;
+    color: white;
+    font-size: 20px;
+    padding: 15px;
+    transition: .5s;
+}
+ul li:hover{
+    cursor: pointer;
+    background-color: rgba(4, 4, 73, 0.911);
+    height: 60px;
+    width: 220px;
+    border-radius: 10px;
+}
+ul li img{
+    height: 25px;
+    width: 25px;
+}
+.reference{
+    height: 560px;
+    width: 900px;
+    background-color: rgba(6, 6, 56, 0.815);
+    margin-left: 10%;
+    margin: 1%;
+    border-radius: 10px;
+    position: fixed;
+    top:0;
+    left: 330px;
+}
+.reference h1{
+    color: white;
+    font-size: 32px;
+    font-family: sans-serif;
+    padding-left: 30px;
+    padding-top: 5px;
+    font-weight: 100;
+}
+.summarising{
+    display: flex;
+}
+.summary{
+    display: flex;    
+    padding-left: 30px;
+    padding-top: 5px;
+}
+.summary div{
+    height: 120px;
+    margin: 1%;
+    width: 180px;
+    border-radius: 10px;
+    background-color: rgba(3, 3, 51, 0.658);
+}
+.total{
+    width: 500px;
+    height: 400px;
+    background-color: darkgoldenrod;
+}
+.customers{
+    width: 800px;
+    height: 228px;
+    background-color: rgba(3, 3, 51, 0.658);
+    margin-left: 45px;
+    border-radius: 10px;
+    overflow-y: scroll;
+   
+}
+.customers h1{
+    font-size: 25px;
+    position: fixed;
+    top: 58%;
+}
+.data{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5%;
+}
+.data div{
+    height: 30px;
+    width: 700px;
+    margin: 1%;
+    background-color: darkcyan;
+}
